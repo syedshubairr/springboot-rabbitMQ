@@ -20,12 +20,12 @@ public class RabbitMQConfig {
     //  Spring bean for Rabbit MQ.
     @Bean
     public Queue queue() {
-        return new Queue(queueName);
+        return new Queue(queueName, true); // Durable queue
     }
 
     @Bean
     public TopicExchange exchange() {
-        return new TopicExchange(exchange);
+        return new TopicExchange(exchange, true, false); // Durable exchange, not auto-deleted
     }
 
     //    Binding between Queue and exchange of RabbitMQ.
