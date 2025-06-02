@@ -10,5 +10,4 @@ spring:
     exchange:
       name: tms
     routing:
-      key:
-        tms_routing_key
+      key: tms_routing_key
