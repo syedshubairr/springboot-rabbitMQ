@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="RabbitMQ" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.shubair.rabbitMq.RabbitMqSpringApplication" />
+    <module name="rabbitMq-spring" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: rabbitMq-spring
+  rabbitmq:
+    host: localhost
+    port: 15672
+    username: guest
+    password: guest
+    queueName: tms-alert
+    exchange:
+      name: tms
+    routing:
+      key:
+        tms_routing_key
